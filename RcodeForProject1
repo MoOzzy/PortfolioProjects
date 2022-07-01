@@ -1,0 +1,17 @@
+library("ggpubr")
+ggscatter(ProjectPortfolio_1_, x= "solar_consumption", y="greenhouse_gas_emissions", 
+          add = "reg.line", conf.int = TRUE, 
+          cor.coef = TRUE, cor.method = "pearson",
+          xlab = "Solar(TWh)", ylab = "Greenhouse")
+cor.test(ProjectPortfolio_1_$solar_consumption, 
+         ProjectPortfolio_1_$greenhouse_gas_emissions, 
+         method = "pearson")
+
+library("ggpubr")
+ggscatter(ProjectPortfolio_1_, x= "fossil_fuel_consumption", y="greenhouse_gas_emissions", 
+          add = "reg.line", conf.int = TRUE, 
+          cor.coef = TRUE, cor.method = "pearson",
+          xlab = "Fossil Fuel (TWh)", ylab = "Greenhouse")
+cor.test(ProjectPortfolio_1_$fossil_fuel_consumption, 
+         ProjectPortfolio_1_$greenhouse_gas_emissions, 
+         method = "pearson")
