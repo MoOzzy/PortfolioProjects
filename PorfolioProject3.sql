@@ -1,7 +1,7 @@
 /* Project using JOINS by Osvaldo Morales
 	In this project I use JOINS in order to pull data from two tables. Table 1 has the measurement from 1-10 
 	of self reported satisfaction per year for each country listed. Table 2 measures the GINI score for each country
-	which is the number assigned depending how how much inequlity there is in that country. The bigger the score
+	which is the number assigned depending how much inequlity there is in that country. The bigger the score
 	the bigger the inequality.
 Source of data: https://ourworldindata.org/grapher/happiness-cantril-ladder 
 				https://ourworldindata.org/grapher/inequality-before-and-after-taxes-and-transfers-thewissen-et-al-data?tab=chart
